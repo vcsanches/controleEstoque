@@ -42,9 +42,9 @@ class Dvd extends produto{
             <thead>
                 <tr>
                     <th>Código</th>
-                    <th>Produto</th>
                     <th>Titulo</th>
                     <th>Ano</th>
+                    <th>Preço</th>
                    </tr>
             </thead>
             <tbody>';
