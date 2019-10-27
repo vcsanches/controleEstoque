@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <?php
         include 'leite.php';
+        include 'dvd.php';
         ?>
 <html>
     <head>
@@ -17,11 +18,10 @@ and open the template in the editor.
         <?php
         // put your code here
         $leite = new leite();
-        //$leite->estaVencido('10/22/2019', '10/23/2019');
-        // $leite->       
-        //$leite->
-        //echo'Olá Mundo!';
-        $leite->estoque();
+        $dvd = new dvd();
+        
+      // $leite->estoque();
+       //$dvd->estoque();
         ?>
     </body>
 </html>
